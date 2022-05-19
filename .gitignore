@@ -1,0 +1,43 @@
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+/docs/.~lock.usecases.ods#
+
+/src/test/resources/docker/00000_initial.sql
+*.log
+/scripts/*.json
+/src/test/resources/docker/*.token
+/admin_access.json
